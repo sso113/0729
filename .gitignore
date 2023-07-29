@@ -13,8 +13,10 @@ node_modules/
 # Ignore any contents inside node_modules folder
 node_modules/**
 
-# Include only diaryProject and FE folders
+# Include all folders and files except the ones below
+/*
 !diaryProject/
 !FE/
+
 
 
