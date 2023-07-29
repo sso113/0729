@@ -1,9 +1,3 @@
-# Ignore myvenv folder
-myvenv/
-
-# Ignore any contents inside myvenv folder
-myvenv/**
-
 # Ignore .pyc files (compiled Python files)
 *.pyc
 
@@ -22,4 +16,5 @@ node_modules/**
 # Include only diaryProject and FE folders
 !diaryProject/
 !FE/
+
 
