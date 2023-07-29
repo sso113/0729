@@ -1,23 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore myvenv folder
+myvenv/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Ignore any contents inside myvenv folder
+myvenv/**
 
-# testing
-/coverage
+# Ignore .pyc files (compiled Python files)
+*.pyc
 
-# production
-/build
+# Ignore __pycache__ folders (created by Python 3.x)
+__pycache__/
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Ignore any contents inside __pycache__ folders
+__pycache__/**
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Ignore node_modules folder (common in JavaScript projects)
+node_modules/
+
+# Ignore any contents inside node_modules folder
+node_modules/**
+
+# Include only diaryProject and FE folders
+!diaryProject/
+!FE/
+
